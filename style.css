@@ -1,0 +1,104 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    background-color: #fdd;
+}
+
+header{
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.title{
+    margin: 0;
+    display: inline-block;
+}
+
+.container-all{
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.conteiner{
+    background-color: #f88080;
+    min-width: 60%;
+    min-height: 500px;
+    margin: 0;
+    display: inline-block;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    border: #000 double 15px;
+    padding: 10px 5px;
+}
+
+#btn-crear{
+    user-select: none;
+    border: none;
+    width: 90%;
+    height: 25px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    background-color: rgba(247, 194, 194, 0.671);
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+#btn-crear:hover{
+    font-weight: 100;
+    
+}
+
+.container-tasks{
+    display: flex;
+    margin-top: 7px;
+    justify-content: space-between;
+    margin-right: 6px;
+    flex-wrap: wrap;
+}
+
+.container-tasks li{
+    width: 50%;
+    list-style:none;
+    cursor: pointer;
+    margin-top: 3px;
+    text-align: start;
+    user-select: none;
+}
+
+.container-tasks div{
+    cursor: pointer;
+    width: 25px;
+    padding: 2px;
+    margin-top: 3px;
+    border-radius: 50%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border: #000 solid 2px;
+    user-select: none;
+    font-weight: 600;
+}
+
+.container-tasks div:hover{
+    font-weight: 100;
+
+}
+
+.completada{
+    text-decoration: line-through;
+}
